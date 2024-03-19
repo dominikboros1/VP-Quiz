@@ -6,7 +6,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-const Task = (props) => {
+const Answer = (props) => {
     return (
         <TouchableOpacity onPress={() => console.log(props, 'Button Pressed')} style={styles.TagContainer}>
         <View style={styles.item}>
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        marginBottom: 20,
+        marginBottom: 1,
     },
     itemleft:{
         flexDirection: "row",
@@ -64,4 +64,4 @@ const styles = StyleSheet.create({
         padding: '2%',
     },
 });
-export default Task;
+export default Answer;
